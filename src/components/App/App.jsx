@@ -22,6 +22,7 @@ export class App extends Component {
   render() {
     const{good, neutral, bad}= this.state
     const options = Object.keys(this.state)
+    
     return (
       <div className={css.container}>
          <Section title={'Please leave feedback'}>
